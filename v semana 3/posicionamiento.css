@@ -1,0 +1,32 @@
+div{
+    /*position: absolute; permite mover el elemento usando los atributos left right top y botom*/ 
+position: absolute;
+    width: 100px;
+height: 100px;
+background: red;
+right: 0;
+
+
+
+}
+
+div.bottom{
+    bottom: 0;
+    left: 0;
+    background: yellow;
+}
+
+div.absolute{
+    position: absolute;
+    left: 25%;
+    bottom: 40%;
+}
+
+.relative{
+    position: relative;
+    width: 200px;
+height: 300px;
+background: green;
+margin: auto;
+
+}

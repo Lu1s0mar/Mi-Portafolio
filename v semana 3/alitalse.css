@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.box{
+    display: flex;
+    /*valores de align items: flex start, center, stretch, baseline, flex end*/
+    align-items:baseline;
+  
+    
+}
+
+.box div{
+    width: 120px;
+    background: red;
+}
+
+.box div:nth-child(even){
+    background: yellow;
+}
+
+.one{
+   /*height: 200px;*/
+   line-height: 500px;
+}
+
+.two{
+    align-self: flex-start;
+}
+
+.three{
+    align-self: flex-end;
+}
+
+.four{
+    align-self: stretch ;
+}

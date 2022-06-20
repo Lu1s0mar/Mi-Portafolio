@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kdam Thmor Pro';
+    src: url('KdamThmorPro-Regular.woff2') format('woff2'),
+        url('KdamThmorPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

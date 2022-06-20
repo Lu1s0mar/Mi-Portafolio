@@ -1,0 +1,13 @@
+img{
+    height: 200px;
+object-fit:contain;
+}
+/*object fit se movera el fondo de la imagen y se adaptara a la caja que lo contiene*/
+/*valores: cover, contain, fill*/
+
+@media (max-width: 800px){
+    img{
+        max-width: 600px;
+        width: 100%;
+    }
+}

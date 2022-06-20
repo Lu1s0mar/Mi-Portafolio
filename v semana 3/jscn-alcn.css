@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.box{
+display:flex;
+/*valores de justify-content: felx start, center, space around, spaced between, space evenly*/
+justify-content: flex-end;
+}
+
+.box div{
+    background: red;
+}
+
+.box div:nth-child(even){
+    background: yellow;
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+   /* width: 300px;
+    height: 100vh;*/
+    /* valores de align content: flex-start, flex end, center, space around, space between, space evenly*/
+    align-content: flex-end;
+    flex-direction: column;
+}
+
+.box2 div{
+    background: green;
+    width: 300px;
+   }
+
+.box2 div:nth-child(odd){
+    background:blue;
+}

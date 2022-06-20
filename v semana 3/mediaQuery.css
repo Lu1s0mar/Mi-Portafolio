@@ -1,0 +1,39 @@
+header{
+    background: red;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    header{
+        background: green;
+    }
+}
+
+@media (min-width: 600px){
+    header{
+        background: pink;
+    }
+}
+
+@media (min-height: 400px){
+    header{
+        background: blue;
+    }
+}
+
+@media (max-height: 400px){
+    header{
+        background: orange;
+    }
+}
+
+@media (orientation: portrait){
+    header{
+        background: violet;
+    }
+}
+@media (orientation: landscape){
+    header{
+        background: black;
+    }
+}

@@ -1,0 +1,21 @@
+header{
+    background: blue;
+}
+
+/*@media (min-width: 359px) and (max-width: 640px){
+    header{
+        background: pink;
+    }
+}*/
+
+/*@media (max-width:300px), (min-width:600px){
+    header{
+        background: orange;
+    }
+}*/
+
+@media not all and (max-width: 600px){
+    header{
+        background: green;
+    }
+}
